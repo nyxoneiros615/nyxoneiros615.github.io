@@ -1,3 +1,10 @@
-theme: minima
 title: Homeward There
 description: A homebody who wanders anyway
+plugins:
+  - jekyll-feed
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
