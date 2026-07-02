@@ -1,0 +1,26 @@
+:root {
+  --bg: #faf6f0;
+  --text: #2b2420;
+  --accent: #b5562f;
+  --muted: #8a7f72;
+  --border: #e6ddd0;
+  --serif: Georgia, 'Palatino Linotype', serif;
+  --sans: -apple-system, 'Segoe UI', sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--serif); line-height: 1.6; }
+.site-header { max-width: 680px; margin: 0 auto; padding: 4rem 1.5rem 2rem; border-bottom: 1px solid var(--border); }
+.site-title { font-size: 2rem; color: var(--accent); text-decoration: none; }
+.site-tagline { font-family: var(--sans); color: var(--muted); font-size: 0.95rem; margin: 0.5rem 0 0; }
+.site-content { max-width: 680px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+.intro { font-size: 1.1rem; margin-bottom: 2.5rem; }
+.posts h2 { font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.85rem; color: var(--muted); margin-bottom: 1rem; }
+.post-list { list-style: none; margin: 0; padding: 0; }
+.post-list li { padding: 1rem 0; border-bottom: 1px solid var(--border); }
+.post-date { display: block; font-family: var(--sans); font-size: 0.8rem; color: var(--muted); margin-bottom: 0.25rem; }
+.post-link { font-size: 1.25rem; color: var(--text); text-decoration: none; }
+.post-link:hover { color: var(--accent); }
+.post-title { font-size: 2rem; margin-bottom: 0.25rem; }
+.post-content { margin-top: 2rem; }
+.site-footer { max-width: 680px; margin: 0 auto; padding: 2rem 1.5rem 4rem; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--border); }
+.site-footer a { color: var(--accent); }
